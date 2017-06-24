@@ -7,40 +7,17 @@
 		</tr>
 	</table>
 </div>
-<div id="toc"><table cellspacing="0" id="toctable">
-		<tr>
-			<td><a href="index.html">Announcements</a></td>
-		</tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-			<td><a href="download.html">Download</a></td>
-		</tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-			<td><a href="about.html">About</a></td>
-		</tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-          <td><a href="faq.html">FAQ</a></td>
-	    </tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-          <td><a href="source.html">Source Code</a></td>
-	    </tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-			<td><a href="wiki.html">Help / Wiki</a></td>
-		</tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-			<td><a href="bugtracker.html">Bugtracker</a></td>
-		</tr>
-		<tr class="spacer"><td></td></tr>
-		<tr>
-		  <td><a target="_blank" href="http://sourceforge.net/projects/darkradiant/">SF.net Project Page</a></td>
-    </tr>
-	</table>
-	<div id="sfbacklink"><a href="http://sourceforge.net/projects/darkradiant"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=161727&type=11" width="120" height="30" border="0" alt="Get DarkRadiant at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a></div>
+<div id="toc">
+	<ul>
+		<li><a href="index.html">Announcements</a></li>
+		<li><a href="download.html">Download</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="source.html">Source Code</a></li>
+		<li><a href="wiki.html">Help / Wiki</a></li>
+		<li><a href="bugtracker.html">Bugtracker</a></li>
+		<li class="github-projectlink"><a href="https://github.com/codereader/DarkRadiant">Project</a></li>
+	</ul>
 </div>
 <div id="latest">
 <table cellspacing="0" cellpadding="0" class="sidebarheader">
