@@ -1,0 +1,173 @@
+/* CSS Document */
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #232323;
+}
+
+a { color: #A0A0A0; text-decoration: underline; }
+a:link { color: #A0A0A0; text-decoration: underline;}
+a:active { color: #A0A0A0; text-decoration: underline;}
+a:hover { color: #EFEFEF; text-decoration: underline;}
+
+p,td,body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A0A0A0;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 0.6em;
+	text-align: justify;
+}
+
+div#header {
+	padding: 8px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-bottom: 1px solid #A0A0A0;
+	background-color: #1A1A1A;
+}
+
+div#toc {
+	position: absolute;
+	left: 0px;
+	top: 130px;
+	margin: 0px;
+	padding: 0px;
+	width: 185px;
+}
+
+div#toc table#toctable {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+div#toc table#toctable tr {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #1A1A1A;
+}
+
+div#toc table#toctable tr.spacer {
+	background-color: #232323;
+	height: 12px;
+}
+
+div#toc table#toctable tr.spacer td {
+	padding: 0px;
+	margin: 0px;
+}
+
+div#toc table#toctable td {
+	margin: 0px;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+div#toc table#toctable a {
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+div#content {
+	position: absolute;
+	top: 130px;
+	left: 220px;
+}
+
+div#latest {
+	position: absolute;
+	top: 130px;
+	left: 750px;
+}
+
+table.sidebarheader, table.sidebarcontent {
+	width: 250px;
+	margin-bottom: 0px;
+}
+
+table.content, table.header {
+	width: 500px;
+	margin-bottom: 0px;
+}
+
+table.content, table.sidebarcontent {
+	margin-bottom: 20px;
+}
+
+table.header th, table.sidebarheader th {
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 11px;
+	background-color: #181818;
+	color: #CFCFCF;
+	padding: 10px;
+}
+
+table.sidebarheader th.note, table.header th.note {
+	text-align: right;
+	font-weight: normal;
+	font-size: 11px;
+	background-color: #181818;
+	padding: 10px;
+}
+
+table.sidebarcontent td.main, table.content td {
+	text-align: left;
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	background-color: #1C1C1C;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+li {
+	line-height: 1.5em;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	padding: 0px;
+	list-style: square;
+	text-align: justify;
+}
+
+p.subheadline {
+	color: #905e60;
+	font-weight: bold;
+}
+
+.highlighted {
+	color: #905e60;
+}
+
+h1 {
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 5px;
+	color: #575750;
+}
+
+div#sfbacklink {
+	background-color: #1A1A1A;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+}
