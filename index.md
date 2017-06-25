@@ -5,7 +5,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 <div class="section">
   <h2>
     <span class="date">2017-02-07</span>
-    <span class="title">DarkRadiant 2.2.1 released</span>
+    <span class="title">DarkRadiant 2.2.1 released</span>  
   </h2>
   <p>DarkRadiant 2.2.1 is ready for use. This is a feature release containing a few bugifxes and stabilisations. It's recommended to prefer this version over any previous releases. View the full list of fixes on our {% include bugtracker_changelog_link.md version=77 %}. It should be preferred over the previously 2.2.0 which shipped with a menu bug.</p>
   {% include download-github-win.md ver='2.2.1' %}
