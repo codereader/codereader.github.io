@@ -281,7 +281,7 @@ h3
 	}
 }
 
-@media screen and (max-width: 1020px)
+@media screen and (max-width: 1040px)
 {
 	#header 
 	{
@@ -305,7 +305,7 @@ h3
 		h1
 		{
 			padding-top: 20px;
-			width: 200px;
+			width: 190px;
 		}
 	}
 
@@ -316,11 +316,11 @@ h3
 
 	#tdmlogo
 	{
-		display: inline;
+		display: none;
 	}
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 640px)
 {
 	#header 
 	{
@@ -334,7 +334,6 @@ h3
 
 		h1
 		{
-			padding-top: 35px;
 			width: 320px;
 		}
 	}
@@ -342,10 +341,5 @@ h3
 	#midcol
 	{
 		margin: 0px;
-	}
-
-	#tdmlogo
-	{
-		display: none;
 	}
 }
