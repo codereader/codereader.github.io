@@ -50,14 +50,7 @@ a:hover { color: $textcolor_hoverlink; text-decoration: underline;}
 {
 	display: table-cell;
 	vertical-align: top;
-}
-
-@media screen and (min-width: $max_content_width)
-{
-	#contentarea
-	{
-		width: $max_content_width;
-	}
+	padding-top: 23px;
 }
 
 p,body 
@@ -107,7 +100,6 @@ p
 
 #toc
 {
-	margin-top: 23px;
 	width: 185px;
 
 	ul
@@ -153,7 +145,6 @@ p
 #latest
 {
 	margin-right: 20px;
-	margin-top: 23px;
 	min-width: 340px;
 	width: 340px;
 }
@@ -161,8 +152,8 @@ p
 #midcol
 {
 	margin-left: 35px;
-	margin-top: 23px;
 	padding: 25px;
+	padding-top: 23px;
 }
 
 h1
@@ -232,5 +223,129 @@ h3
 	p.important
 	{
 		font-weight: bold;
+	}
+}
+
+@media screen and (min-width: $max_content_width)
+{
+	#contentarea
+	{
+		width: $max_content_width;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	#contentarea
+	{
+		display: inline-block;
+	}
+	#contentrow
+	{
+		display: inline;
+	}
+	#leftcol, #rightcol, #midcol
+	{
+		display: inline-block;
+		padding-top: 23px;
+	}
+	#leftcol, #rightcol
+	{
+		float: left;
+		margin-top: 0px;
+	}
+	#midcol
+	{
+		width: 66%;
+		float: right;
+		margin: 0px;
+	}
+	#leftcol
+	{
+		width: 26%;
+		margin: 0px;
+	}
+	#rightcol
+	{
+		width: 26%;
+		margin: 0px;
+	}
+	#latest
+	{
+		width: 100%;
+		min-width: inherit;
+	}
+	#toc
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1020px)
+{
+	#header 
+	{
+		h1
+		{
+			padding-top: 20px;
+			width: 250px;
+		}
+	}
+
+	#tdmlogo
+	{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	#header 
+	{
+		h1
+		{
+			padding-top: 20px;
+			width: 200px;
+		}
+	}
+
+	#midcol
+	{
+		width: 63%;
+	}
+
+	#tdmlogo
+	{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	#header 
+	{
+		height: 75px;
+
+		#sitelogo img
+		{
+			margin-right: 0px;
+			width: 130px;
+		}
+
+		h1
+		{
+			padding-top: 35px;
+			width: 320px;
+		}
+	}
+
+	#midcol
+	{
+		margin: 0px;
+	}
+
+	#tdmlogo
+	{
+		display: none;
 	}
 }
