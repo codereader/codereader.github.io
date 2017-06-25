@@ -1,0 +1,1 @@
+<a href="http://bugs.thedarkmod.com/changelog_page.php?version_id={{ include.version }}">bugtracker changelog</a>

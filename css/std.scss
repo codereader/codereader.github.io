@@ -2,9 +2,17 @@
 # Default Styles
 ---
 
+$defaultfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $textcolor: #A0A0A0;
+$textcolor_red: #905e60;
 $textsize_h1: 1.2em;
 $textsize: 0.95em;
+
+$header_background: #181818;
+$header_color: #CFCFCF;
+$header_color_red: #905e60;
+
+$section_background: #1C1C1C;
 
 /**/
 body
@@ -20,9 +28,20 @@ a:link { color: $textcolor; text-decoration: underline;}
 a:active { color: $textcolor; text-decoration: underline;}
 a:hover { color: #EFEFEF; text-decoration: underline;}
 
-p,td,body 
+#contentarea
 {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	display: table-row;
+}
+
+#leftcol, #rightcol, #content
+{
+	display: table-cell;
+	vertical-align: top;
+}
+
+p,body 
+{
+	font-family: $defaultfont;
 	font-size: $textsize;
 	color: $textcolor;
 }
@@ -32,7 +51,7 @@ p
 	line-height: 1.5em;
 	margin: 0px;
 	padding: 0px;
-	margin-bottom: 0.6em;
+	margin-bottom: 0.7em;
 	text-align: justify;
 }
 
@@ -67,8 +86,6 @@ p
 
 #toc
 {
-	clear: both;
-	float: left;
 	margin-top: 23px;
 	width: 185px;
 
@@ -112,24 +129,100 @@ p
 	}
 }
 
-div#content {
-	position: absolute;
-	top: 130px;
-	left: 220px;
+
+h1
+{
+	font-size: $textsize_h1;
+	letter-spacing: 2px;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 5px;
+	color: #575750;
 }
 
-div#latest {
-	position: absolute;
-	top: 130px;
-	left: 750px;
+h2
+{
+	background-color: $header_background;
+	font-size: $textsize*1.1;
+	padding: 12px;
+	padding-left: 20px;
+	margin: 0px;
+	color: $header_color;
+	font-weight: normal;
 }
 
+h3
+{
+	color: $header_color_red;
+	margin-bottom: 0.7em;
+	margin-top: 0;
+	font-size: $textsize*1.1;
+	font-weight: normal;
+}
+
+#latest
+{
+	margin-right: 20px;
+	margin-top: 23px;
+	min-width: 340px;
+	width: 340px;
+}
+
+.section
+{
+	margin-bottom: 20px;
+	padding-bottom: 0.2em;
+	text-align: left;
+	background-color: $section_background;
+
+	h2 
+	{
+		span.date
+		{
+			padding-right: 0.4em;
+			font-style: italic;
+		}
+
+		span.title
+		{
+			border-left: 1px solid $textcolor;
+			padding-left: 0.4em;
+		}
+	}
+
+	p, h3
+	{
+		margin: 0px;
+		margin-top: 1.1em;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-bottom: 1.1em;
+		padding: 0px;
+	}
+
+	p.important
+	{
+		font-weight: bold;
+	}
+}
+
+#content
+{
+	margin-left: 35px;
+	margin-top: 23px;
+	padding: 25px;
+}
+
+/*
 table.sidebarheader, table.sidebarcontent {
 	width: 250px;
 	margin-bottom: 0px;
 }
+*/
 
-table.content, table.header {
+/*table.content, table.header {
 	width: 500px;
 	margin-bottom: 0px;
 }
@@ -188,17 +281,6 @@ p.subheadline {
 	color: #905e60;
 }
 
-h1 {
-	font-size: $textsize_h1;
-	letter-spacing: 2px;
-	font-weight: bold;
-	line-height: 1em;
-	padding: 0px;
-	margin: 0px;
-	padding-bottom: 5px;
-	color: #575750;
-}
-
 div#sfbacklink {
 	background-color: #1A1A1A;
 	margin-top: 20px;
@@ -206,3 +288,4 @@ div#sfbacklink {
 	padding-bottom: 10px;
 	padding-left: 25px;
 }
+*/

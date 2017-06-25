@@ -6,11 +6,18 @@
 <link rel="stylesheet" href="css/std.css" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" />
 </head>
-
 <body>
-{% include stdelements.md %}
-<div id="content">
-  {{ content }}
-</div>
+  {% include header.md %}
+  <div id="contentarea">
+    <div id="leftcol">
+      {% include stdelements.md %}
+    </div>
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="rightcol">
+      {% include downloadlatest.md %}
+    </div>
+  </div>
 </body>
 </html>
