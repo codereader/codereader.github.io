@@ -9,14 +9,16 @@
 <body>
   {% include header.md %}
   <div id="contentarea">
-    <div id="leftcol">
-      {% include stdelements.md %}
-    </div>
-    <div id="content">
-      {{ content }}
-    </div>
-    <div id="rightcol">
-      {% include downloadlatest.md %}
+    <div id="contentrow">
+      <div id="leftcol">
+        {% include stdelements.md %}
+      </div>
+      <div id="midcol">
+        {{ content }}
+      </div>
+      <div id="rightcol">
+        {% include downloadlatest.md %}
+      </div>
     </div>
   </div>
 </body>
