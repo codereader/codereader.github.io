@@ -7,7 +7,7 @@ $textcolor: #A0A0A0;
 $textcolor_red: #905e60;
 $textsize_base: 13px;
 $textsize_h1: 1.2em;
-$textsize: 0.95em;
+$textsize: 1em;
 $textcolor_hoverlink: #EFEFEF;
 
 $page_background: #232323;
@@ -171,7 +171,7 @@ h1
 h2
 {
 	background-color: $header_background;
-	font-size: $textsize*1.1;
+	font-size: $textsize;
 	padding: 12px;
 	padding-left: 20px;
 	margin: 0px;
@@ -184,7 +184,7 @@ h3
 	color: $header_color_red;
 	margin-bottom: 0.7em;
 	margin-top: 0;
-	font-size: $textsize*1.1;
+	font-size: $textsize;
 	font-weight: normal;
 }
 
