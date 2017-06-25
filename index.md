@@ -5,9 +5,9 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 <div class="section">
   <h2>
     <span class="date">2017-06-25</span>
-    <span class="title">Website moved</span>  
+    <span class="title">Website moved to www.darkradiant.net</span>  
   </h2>
-  <p>The DarkRadiant website has been moved to http://www.darkradiant.net, hosted through GitHub Pages. The old site on darkradiant.sourceforge.net will be decommissioned soon.</p>
+  <p>The DarkRadiant website has been moved to <a href="http://www.darkradiant.net">www.darkradiant.net</a>, hosted through GitHub Pages. The old site on darkradiant.sourceforge.net will be decommissioned soon and replaced with some redirects.</p>
 </div>
 
 <div class="section">
