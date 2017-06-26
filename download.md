@@ -203,7 +203,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=53 %})</span>
   </h2>
   <p>With DarkRadiant 1.7.0 a massive list of improvements has been made available, next to the usual long list of bugfixes. A fully-fledged Particle Editor, real-time render preview, increased map loading performance, reduced memory consumption and many improvements related to layers, to name the most important changes over the previous release.</p>
-  {% include download-sf-win.md ver='1.7.0' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.7.0/darkradiant-1.7.0.x64.exe/download">darkradiant-1.7.0.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.7.0/darkradiant-1.7.0.exe/download">darkradiant-1.7.0.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
@@ -213,7 +217,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=54 %})</span>
   </h2>
   <p>DarkRadiant 1.6.1 is a maintenance or bugfix release which resolves a few issues that came up since 1.6.0.</p>
-  {% include download-sf-win.md ver='1.6.1' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.6.1/darkradiant-1.6.1.x64.exe/download">darkradiant-1.6.1.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.6.1/darkradiant-1.6.1.exe/download">darkradiant-1.6.1.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
@@ -223,7 +231,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=50 %})</span>
   </h2>
   <p>DarkRadiant 1.6.0 introduces native support for the Quake 4 Map Format as well as a rudimentary quake4.game definition (to be tested, feedback is welcome). The 3D renderer went through some profiling and	is operating considerably faster now.  A few bugs and crashes have been fixed as well.</p>
-  {% include download-sf-win.md ver='1.6.0' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.6.0/darkradiant-1.6.0.x64.exe/download">darkradiant-1.6.0.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.6.0/darkradiant-1.6.0.exe/download">darkradiant-1.6.0.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
@@ -233,7 +245,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=48 %})</span>
   </h2>
   <p>As most prominent feature DarkRadiant 1.5.0 provides a newly written Particle Previewer, including real-time particle rendering. Besides a few bugfixes and usability improvements, the major changes happened behind the scenes (all the UI code has been refactored to use GTK's C++ interface gtkmm).</p>
-  {% include download-sf-win.md ver='1.5.0' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.5.0/darkradiant-1.5.0.x64.exe/download">darkradiant-1.5.0.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.5.0/darkradiant-1.5.0.exe/download">darkradiant-1.5.0.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
@@ -243,7 +259,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=45 %})</span>
   </h2>
   <p>The 1.4.0  release introduces a small set of new features, including Selection Sets, a new Group Part selection mode, Vocal Set Chooser (for TDM 1.03+) and a couple of bugfixes.</p>
-  {% include download-sf-win.md ver='1.4.0' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.4.0/darkradiant-1.4.0.x64.exe/download">darkradiant-1.4.0.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.4.0/darkradiant-1.4.0.exe/download">darkradiant-1.4.0.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
@@ -253,7 +273,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=46 %})</span>
   </h2>
   <p>This is a bugfix release, resolving a couple of issues related to filtering, decal rendering and curve handling.</p>
-  {% include download-sf-win.md ver='1.3.2' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.3.2/darkradiant-1.3.2.x64.exe/download">darkradiant-1.3.2.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.3.2/darkradiant-1.3.2.exe/download">darkradiant-1.3.2.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
@@ -263,7 +287,11 @@ title: DarkRadiant Download Archive
     <span class="changelog">({% include bugtracker_changelog_link.md version=44 %})</span>
   </h2>
   <p>This is a bugfix release superseding the recently published 1.3.0 feature release, resolving a few annoying crashes related to the Objectives Editor plug-in. No new features have been introduced, except for the ability to select the camera position in Splitpane layout.</p>
-  {% include download-sf-win.md ver='1.3.1' %}
+  <h3>Windows Installer</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.3.1/darkradiant-1.3.1.x64.exe/download">darkradiant-1.3.1.x64.exe</a></li>
+    <li><a href="https://sourceforge.net/projects/darkradiant/files/darkradiant/1.3.1/darkradiant-1.3.1.exe/download">darkradiant-1.3.1.exe (32-Bit)</a></li>
+  </ul>
 </div>
 
 <div class="section download">
