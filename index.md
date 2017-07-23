@@ -4,6 +4,15 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2017-07-23</span>
+    <span class="title">DarkRadiant 2.3.0 released</span>  
+  </h2>
+  <p>DarkRadiant 2.3.0 is ready for use. This is a feature release containing a few bugfixes and stabilisations. It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=79 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2017-06-25</span>
     <span class="title">Website moved to www.darkradiant.net</span>  
   </h2>
@@ -15,7 +24,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
     <span class="date">2017-02-07</span>
     <span class="title">DarkRadiant 2.2.1 released</span>  
   </h2>
-  <p>DarkRadiant 2.2.1 is ready for use. This is a feature release containing a few bugifxes and stabilisations. It's recommended to prefer this version over any previous releases. View the full list of fixes on our {% include bugtracker_changelog_link.md version=77 %}. It should be preferred over the previously 2.2.0 which shipped with a menu bug.</p>
+  <p>DarkRadiant 2.2.1 is ready for use. This is a feature release containing a few bugfixes and stabilisations. It's recommended to prefer this version over any previous releases. View the full list of fixes on our {% include bugtracker_changelog_link.md version=77 %}. It should be preferred over the previously 2.2.0 which shipped with a menu bug.</p>
   {% include download-github-win.md ver='2.2.1' %}
   {% include download-linux.md ver='2.0.4' %}
 </div>
@@ -25,7 +34,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
     <span class="date">2016-11-18</span>
     <span class="title">DarkRadiant 2.1.0 is out</span>
   </h2>
-  <p>DarkRadiant 2.1.0 is ready for use. This is a feature release containing a few bugifxes and stabilisations. It's recommended to prefer this version over any previous releases. View the full list of fixes on our {% include bugtracker_changelog_link.md version=75 %}.</p>
+  <p>DarkRadiant 2.1.0 is ready for use. This is a feature release containing a few bugfixes and stabilisations. It's recommended to prefer this version over any previous releases. View the full list of fixes on our {% include bugtracker_changelog_link.md version=75 %}.</p>
   {% include download-github-win.md ver='2.1.0' %}
   {% include download-linux.md ver='2.0.4' %}
 </div>

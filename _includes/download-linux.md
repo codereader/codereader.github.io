@@ -1,2 +1,2 @@
 <h3>Linux</h3>
-<p>Packages are made available by the Debian Games group, these are usually available in the Ubuntu Software Center after some delay.</p>
+<p>A <a href="https://packages.debian.org/sid/darkradiant">darkradiant package</a> is made available by the Debian Games group, these are usually available in the Ubuntu Software Center after some time. Or <a href="source.html">compile from source.</a></p>

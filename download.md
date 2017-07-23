@@ -44,6 +44,29 @@ title: DarkRadiant Download Archive
 </script>
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.3.0</span>
+    <span class="date">2017-07-23</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=79 %})</span>
+  </h2>
+  <p>This is a feature release containing a few bugfixes and stabilisations. View the {% include bugtracker_changelog_link.md version=79 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.3.0' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.3.0' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.3.0/DarkRadiant.2.3.0.app.zip">DarkRadiant.2.3.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.2.1</span>
     <span class="date">2017-02-07</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=77 %})</span>
