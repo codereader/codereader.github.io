@@ -20,6 +20,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
     <li>Layers, Grouping and Selection Sets</li>
     <li>Model Scaling</li>
     <li>Particle Editor incl. realtime Preview</li>
+    <li>Export entire map portions to ASE, LWO and OBJ format</li>
     <li>Browsers for Models, Entity Classes, Skins, Sounds</li>
     <li>Support for most idTech4 shader features</li>
     <li>TexTool (U/V Editing Tool)</li>
@@ -27,7 +28,6 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
     <li>Curve Editing</li>
     <li>Drag-Manipulation of Brushes, Patches and Lights (Point &amp; Projected)</li>
     <li>Python Script Interface</li>
-    <li>Export to ASE and OBJ file formats</li>
     <li>Game support for: The Dark Mod 2.0, Doom 3, Quake 4, Quake 3, XreaL</li>
     <li>Imports all kinds of maps in classic Quake/idTech map formats</li>
     <li>Exports maps to  Doom 3 / Quake4 / Quake 3 format</li>
