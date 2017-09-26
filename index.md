@@ -4,6 +4,15 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2017-09-26</span>
+    <span class="title">DarkRadiant 2.4.0 available</span>  
+  </h2>
+  <p>DarkRadiant 2.4.0 is ready for use. This release fixes a few annoying bugs and introduces a new Model Export feature, allowing editors to export the current selection to ASE, LWO or OBJ (including brushes, patches and models). It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=80 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2017-07-23</span>
     <span class="title">DarkRadiant 2.3.0 released</span>  
   </h2>
