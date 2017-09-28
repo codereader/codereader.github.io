@@ -57,7 +57,7 @@ title: DarkRadiant Download Archive
   </div>
   <div class="col1">
     <h3>macOS</h3>
-    <p><ul><li>coming soon<!--<a href="https://github.com/codereader/DarkRadiant/releases/download/2.4.0/DarkRadiant.2.4.0.app.zip">DarkRadiant.2.4.0.app.zip</a>--></li></ul></p>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.4.0/DarkRadiant.2.4.0.app.zip">DarkRadiant.2.4.0.app.zip</a></li></ul></p>
   </div>
   <div class="col2">
     <h3>Linux</h3>
