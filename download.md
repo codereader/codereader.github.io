@@ -44,6 +44,29 @@ title: DarkRadiant Download Archive
 </script>
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.6.0</span>
+    <span class="date">2018-05-12</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=84 %})</span>
+  </h2>
+  <p>This feature release is further improving on the Model Exporting capabilities and introduces smaller features like a mapping time stopwatch and the ability to define favourites in the Media Browser, making it more convenient to work with a large number of materials. On top of that, this build offers a number of fixes and improvement for various parts of the editor. View the {% include bugtracker_changelog_link.md version=84 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.6.0' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.6.0' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.6.0/DarkRadiant.2.6.0.app.zip">DarkRadiant.2.6.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.5.0</span>
     <span class="date">2017-12-24</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=83 %})</span>
