@@ -45,7 +45,7 @@ title: DarkRadiant Download Archive
 <div class="section download latest">
   <h2>
     <span class="">DarkRadiant 2.6.0</span>
-    <span class="date">2018-05-12</span>
+    <span class="date">2018-05-10</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=84 %})</span>
   </h2>
   <p>This feature release is further improving on the Model Exporting capabilities and introduces smaller features like a mapping time stopwatch and the ability to define favourites in the Media Browser, making it more convenient to work with a large number of materials. On top of that, this build offers a number of fixes and improvement for various parts of the editor. View the {% include bugtracker_changelog_link.md version=84 %} to see what's new in this version.</p>

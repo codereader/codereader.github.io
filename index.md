@@ -4,7 +4,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
-    <span class="date">2018-05-12</span>
+    <span class="date">2018-05-10</span>
     <span class="title">DarkRadiant 2.6.0 released</span>  
   </h2>
   <p>DarkRadiant 2.6.0 is ready for use. This feature release is further improving on the Model Exporting capabilities and introduces smaller features like a mapping time stopwatch and the ability to define favourites in the Media Browser, making it more convenient to work with a large number of materials. On top of that, this build offers a number of fixes and improvement for various parts of the editor. It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=84 %}. </p>
