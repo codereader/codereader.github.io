@@ -44,6 +44,30 @@ title: DarkRadiant Download Archive
 </script>
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.7.0</span>
+    <span class="date">2020-01-10</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=85 %})</span>
+  </h2>
+  <p>This release is 90% about fixed bugs and usability issues. The type-to-search functionality in lists and tree views has been improved, and the Game/Project Setup now shows recently used custom paths in the mission drop down list. OrbWeaver has been working on a DarkRadiant user guide which is continuously expanded and available on our website <a href="/userguide">www.darkradiant.net/userguide</a> (also accessible through the About > User Guide menu option).
+  View the {% include bugtracker_changelog_link.md version=85 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.7.0' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.7.0' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.7.0/DarkRadiant.2.7.0.app.zip">DarkRadiant.2.7.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download latest">
+  <h2>
     <span class="">DarkRadiant 2.6.0</span>
     <span class="date">2018-05-10</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=84 %})</span>

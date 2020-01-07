@@ -11,7 +11,7 @@ title: DarkRadiant FAQ
   <p>A: Yes, of course. DarkRadiant is developed with both platforms in mind and runs perfectly on Linux and Windows. There is a .deb package thankfully maintained by the Debian Games group.</p>	
 
   <h3>Q: And what about us Mac Gamers? </h3>
-  <p>A: DarkRadiant compiles in Mac OS and (while not fully tested on that platform) should prove usable. There's a <a href="http://wiki.thedarkmod.com/index.php?title=DarkRadiant_-_Compiling_in_OS_X">Compilation Guide for MacOS</a> on the wiki.</p>
+  <p>A: DarkRadiant compiles in Mac OS and (while not fully tested on that platform) should prove usable. There's a <a href="https://wiki.thedarkmod.com/index.php?title=DarkRadiant_-_Compiling_in_OS_X">Compilation Guide for MacOS</a> on the wiki.</p>
 
   <h3>Q: Can DarkRadiant be used for Half-Life, Quake 3, or other games as well (apart from Doom 3)? </h3>
   <p>A: No. DarkRadiant has been specialised for the Doom 3 (idTech4) engine only. It's possible to use it for other Doom 3 modifications though, it's usually enough to specify the <strong>fs_game</strong> setting in the preferences. Quake 4 Editing should be possible, but it's not tested towards that game. </p>

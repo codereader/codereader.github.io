@@ -4,6 +4,16 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2020-01-10</span>
+    <span class="title">DarkRadiant 2.7.0 is available</span>  
+  </h2>
+  <p>DarkRadiant 2.7.0 is ready for download. This release is 90% about fixed bugs and usability issues. Nonetheless, the type-to-search functionality in lists and tree views has been improved, and the Game/Project Setup now shows recently used custom paths in the mission drop down list. OrbWeaver has been working on a DarkRadiant user guide which is continuously expanded and available on the website <a href="/userguide">https://www.darkradiant.net/userguide</a> (also accessible through the About > User Guide menu option).
+  It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=85 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2018-05-10</span>
     <span class="title">DarkRadiant 2.6.0 released</span>  
   </h2>
