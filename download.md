@@ -45,7 +45,7 @@ title: DarkRadiant Download Archive
 <div class="section download latest">
   <h2>
     <span class="">DarkRadiant 2.7.0</span>
-    <span class="date">2020-01-10</span>
+    <span class="date">2020-01-14</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=85 %})</span>
   </h2>
   <p>This release is 90% about fixed bugs and usability issues. The type-to-search functionality in lists and tree views has been improved, and the Game/Project Setup now shows recently used custom paths in the mission drop down list. OrbWeaver has been working on a DarkRadiant user guide which is continuously expanded and available on our website <a href="/userguide">www.darkradiant.net/userguide</a> (also accessible through the About > User Guide menu option).
