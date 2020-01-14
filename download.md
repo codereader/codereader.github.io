@@ -66,7 +66,7 @@ title: DarkRadiant Download Archive
   </div>
 </div>
 
-<div class="section download latest">
+<div class="section download">
   <h2>
     <span class="">DarkRadiant 2.6.0</span>
     <span class="date">2018-05-10</span>
