@@ -4,6 +4,16 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2020-05-02</span>
+    <span class="title">DarkRadiant 2.8.0 is ready for download</span>  
+  </h2>
+  <p>DarkRadiant 2.8.0 is available. Next to a considerable number of bugfixes and improvements, a nice amount of new editing features made it into this build. There's a new way to select items by filter, it's possible to retain grouping information when copy-pasting between DarkRadiant sessions, a new "Select Parent Entities" command has been added, and more. 
+  It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=87 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2020-01-14</span>
     <span class="title">DarkRadiant 2.7.0 is available</span>  
   </h2>
