@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DarkRadiant Download Archive
+title: DarkRadiant Downloads
 ---
 <script>
   function toggleSection(ev)
