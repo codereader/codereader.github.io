@@ -45,6 +45,30 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.9.0</span>
+    <span class="date">2020-11-16</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=90 %})</span>
+  </h2>
+  <p>This release includes a large change to DarkRadiant's module architecture, separating UI code from the actual algorithms almost everywhere. Aside from that, most efforts went into bug fixing and stabilisation - with the occasional convenience feature here and there. TDM mappers will also like to check out the first incarnation of the TDM Game Connection plugin (usable in TDM 2.09+).<br />
+  View the {% include bugtracker_changelog_link.md version=90 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.9.0' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.9.0' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.9.0/DarkRadiant.2.9.0.app.zip">DarkRadiant.2.9.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.8.0</span>
     <span class="date">2020-05-02</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=87 %})</span>
