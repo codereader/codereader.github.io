@@ -4,7 +4,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
-    <span class="date">2020-11-16</span>
+    <span class="date">2020-11-18</span>
     <span class="title">DarkRadiant 2.9.0 released</span>  
   </h2>
   <p>DarkRadiant 2.9.0 is ready for its public release. This version includes a large change to DarkRadiant's module architecture, separating UI code from the actual algorithms almost everywhere. Aside from that, most efforts went into bug fixing and stabilisation - with the occasional convenience feature here and there. TDM mappers will like the first incarnation of the TDM Game Connection plugin (usable in TDM 2.09+)<br />

@@ -46,7 +46,7 @@ title: DarkRadiant Downloads
 <div class="section download latest">
   <h2>
     <span class="">DarkRadiant 2.9.0</span>
-    <span class="date">2020-11-16</span>
+    <span class="date">2020-11-18</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=90 %})</span>
   </h2>
   <p>This release includes a large change to DarkRadiant's module architecture, separating UI code from the actual algorithms almost everywhere. Aside from that, most efforts went into bug fixing and stabilisation - with the occasional convenience feature here and there. TDM mappers will also like to check out the first incarnation of the TDM Game Connection plugin (usable in TDM 2.09+).<br />
