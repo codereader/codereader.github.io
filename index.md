@@ -4,6 +4,16 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2020-11-19</span>
+    <span class="title">DarkRadiant 2.9.1 released</span>  
+  </h2>
+  <p>DarkRadiant 2.9.1 fixes a freeze issue that has slipped into the recent 2.9.0 release (refer to the changelog of 2.9.0 below to see what has changed there).
+  It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=92 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2020-11-18</span>
     <span class="title">DarkRadiant 2.9.0 released</span>  
   </h2>

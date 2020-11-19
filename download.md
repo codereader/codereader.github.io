@@ -45,6 +45,30 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.9.1</span>
+    <span class="date">2020-11-19</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=92 %})</span>
+  </h2>
+  <p>DarkRadiant 2.9.1 fixes a freeze issue that has slipped into the recent 2.9.0 release.<br />
+  View the {% include bugtracker_changelog_link.md version=92 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.9.1' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.9.1' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.9.1/DarkRadiant.2.9.1.app.zip">DarkRadiant.2.9.1.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.9.0</span>
     <span class="date">2020-11-18</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=90 %})</span>
