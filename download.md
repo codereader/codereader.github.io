@@ -45,6 +45,30 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.10.0</span>
+    <span class="date">2020-12-27</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=89 %})</span>
+  </h2>
+  <p>DarkRadiant 2.10.0 adds a couple of interesting features for mappers, like welding/merging patches, opening maps from PK4 files and adjustable light colours and orthoview font sizes.<br />
+  View the {% include bugtracker_changelog_link.md version=89 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.10.0' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.10.0' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.10.0/DarkRadiant.2.10.0.app.zip">DarkRadiant.2.10.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.9.1</span>
     <span class="date">2020-11-19</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=92 %})</span>
