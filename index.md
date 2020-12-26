@@ -4,7 +4,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
-    <span class="date">2020-12-27</span>
+    <span class="date">2020-12-26</span>
     <span class="title">DarkRadiant 2.10.0 released</span>  
   </h2>
   <p>DarkRadiant 2.10.0 is ready for download. It adds a couple of interesting features for mappers, like welding/merging patches, opening maps from PK4 files and adjustable light colours and orthoview font sizes. It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=89 %}. </p>

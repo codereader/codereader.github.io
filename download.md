@@ -46,7 +46,7 @@ title: DarkRadiant Downloads
 <div class="section download latest">
   <h2>
     <span class="">DarkRadiant 2.10.0</span>
-    <span class="date">2020-12-27</span>
+    <span class="date">2020-12-26</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=89 %})</span>
   </h2>
   <p>DarkRadiant 2.10.0 adds a couple of interesting features for mappers, like welding/merging patches, opening maps from PK4 files and adjustable light colours and orthoview font sizes.<br />
