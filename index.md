@@ -8,7 +8,7 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
     <span class="title">DarkRadiant 2.11.0 available</span>  
   </h2>
   <p>DarkRadiant 2.11.0 is ready for release. Next to bug fixes and GUI improvements (also to the recently added TDM Game Connection plugin) this build enables users to manage their favourite resources like materials, entities, sound shaders. The search function of resource trees has been improved too.</p> 
-  <p><img class="screenshot" src="./images/screenshots/favourites_mockup.gif" height="300" />&nbsp;<img class="screenshot" src="./images/screenshots/filtering.gif" height="300" /></p>
+  <p><img class="screenshot" src="./images/screenshots/fav_media_browser.png" height="260" />&nbsp;<img class="screenshot" src="./images/screenshots/filtering.gif" height="260" /></p>
   <p>It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=94 %}. </p>
   <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
 </div>
