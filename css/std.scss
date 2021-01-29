@@ -36,6 +36,11 @@ a:link { color: $textcolor; text-decoration: underline;}
 a:active { color: $textcolor; text-decoration: underline;}
 a:hover { color: $textcolor_hoverlink; text-decoration: underline;}
 
+img.screenshot
+{
+	border: 1px solid $textcolor;
+}
+
 #contentarea
 {
 	display: table;
