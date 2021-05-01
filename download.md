@@ -45,6 +45,31 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.12.0</span>
+    <span class="date">2021-05-01</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=95 %})</span>
+  </h2>
+  <p>DarkRadiant 2.12.0 is ready for download. Feature highlights include a new customisable GUI and the first iteration of the Material Editor GUI, next to a number of bug fixes and improvements.
+  <br />
+  View the {% include bugtracker_changelog_link.md version=95 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.12.0' %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.12.0' %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.12.0/DarkRadiant.2.12.0.app.zip">DarkRadiant.2.12.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.11.0</span>
     <span class="date">2021-01-29</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=94 %})</span>

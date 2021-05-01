@@ -4,6 +4,16 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2021-05-01</span>
+    <span class="title">DarkRadiant 2.12.0 available</span>  
+  </h2>
+  <p>DarkRadiant 2.12.0 is ready for download. Feature highlights include a new customisable GUI and the first iteration of the Material Editor GUI, next to a number of bug fixes and improvements.</p> 
+  <p>It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=95 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2021-01-29</span>
     <span class="title">DarkRadiant 2.11.0 available</span>  
   </h2>
