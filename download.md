@@ -49,7 +49,7 @@ title: DarkRadiant Downloads
     <span class="date">2021-08-09</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=97 %})</span>
   </h2>
-  <p>DarkRadiant 2.13.0 is ready for download. A lot of fixes and improvements made it into this release. DarkRadiant is now capable of comparing maps, both in differential A vs. B comparisons as well as three-way merge scenarios (when both maps share the same ancestor).
+  <p>DarkRadiant 2.13.0 is ready for download. A lot of fixes and improvements made it into this release. Support for multiple .lin point files has been added, to better support the visualisation of &quot;internal&quot; visportal leaks. DarkRadiant is now capable of comparing maps, both in differential A vs. B comparisons as well as three-way merge scenarios (when both maps share the same ancestor).
   <br />
   View the {% include bugtracker_changelog_link.md version=97 %} to see what's new in this version.</p>
   <div class="col1">
