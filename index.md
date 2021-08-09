@@ -4,6 +4,16 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2021-08-09</span>
+    <span class="title">DarkRadiant 2.13.0 released</span>  
+  </h2>
+  <p>DarkRadiant 2.13.0 is ready for download. A lot of fixes and improvements made it into this release. DarkRadiant is now capable of comparing maps, both in differential A vs. B comparisons as well as three-way merge scenarios (when both maps share the same ancestor).</p> 
+  <p>It's recommended to prefer this version over any previous release. View the full list of fixes on our {% include bugtracker_changelog_link.md version=97 %}. </p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2021-05-01</span>
     <span class="title">DarkRadiant 2.12.0 available</span>  
   </h2>
