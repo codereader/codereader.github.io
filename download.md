@@ -53,10 +53,10 @@ title: DarkRadiant Downloads
   <br />
   View the {% include bugtracker_changelog_link.md version=97 %} to see what's new in this version.</p>
   <div class="col1">
-    {% include download-github-win.md ver='2.13.0' %}
+    {% include download-github-win.md ver='2.13.0' x64only=true %}
   </div>
   <div class="col2">
-    {% include download-github-win-portable.md ver='2.13.0' %}
+    {% include download-github-win-portable.md ver='2.13.0' x64only=true %}
   </div>
   <div class="col1">
     <h3>macOS</h3>
