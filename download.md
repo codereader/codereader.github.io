@@ -45,6 +45,31 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 2.14.0</span>
+    <span class="date">2021-11-27</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=98 %})</span>
+  </h2>
+  <p>DarkRadiant 2.14.0 is available. This release focused on DarkRadiant's texturing abilities, the Texture Tool and some of the Surface Inspector algorithms have been completely rewritten. A new model importer UI has been added with the ability to convert FBX models into a format compatible to the game (it can also convert LWO, ASE and OBJ models). The EntityInspector can now deal with more than one selected entities, showing the shared key values in the list.
+  <br />
+  View the {% include bugtracker_changelog_link.md version=98 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='2.14.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='2.14.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/2.14.0/DarkRadiant.2.14.0.app.zip">DarkRadiant.2.14.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download latest">
+  <h2>
     <span class="">DarkRadiant 2.13.0</span>
     <span class="date">2021-08-09</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=97 %})</span>
