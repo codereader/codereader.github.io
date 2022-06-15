@@ -93,7 +93,7 @@ title: DarkRadiant Downloads
   </div>
 </div>
 
-<div class="section download latest">
+<div class="section download">
   <h2>
     <span class="">DarkRadiant 2.13.0</span>
     <span class="date">2021-08-09</span>
