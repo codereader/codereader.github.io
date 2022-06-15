@@ -45,6 +45,31 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.0.0</span>
+    <span class="date">2022-06-15</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=99 %})</span>
+  </h2>
+  <p>It took a while, but DarkRadiant 3.0.0 is finally available. Most of the time has been spent on improving DarkRadiant's renderer, which now features shadow mapping support of up to 6 lights. It's still not matching the engine's output (especially in terms of performance), but it should be faster and much more helpful than it was before. Besides of that, a lot of non-renderer issues have been resolved in this release too, next to some fine usability improvements.
+  <br />
+  View the {% include bugtracker_changelog_link.md version=99 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.0.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.0.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.0.0/DarkRadiant.3.0.0.app.zip">DarkRadiant.3.0.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 2.14.0</span>
     <span class="date">2021-11-27</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=98 %})</span>

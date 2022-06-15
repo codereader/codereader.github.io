@@ -4,6 +4,18 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-06-15</span>
+    <span class="title">DarkRadiant 3.0.0 released</span>  
+  </h2>
+  <p>It took a while, but DarkRadiant 3.0.0 is finally available. Most of the time has been spent on improving DarkRadiant's renderer, which now features shadow mapping support of up to 6 lights. It's still not matching the engine's output (especially in terms of performance), but it should be faster and much more helpful than it was before.</p>
+  <p><img class="screenshot" src="./images/screenshots/lighting_mode_with_shadows.jpg" height="300" /></p>
+  <p>The effort that has been put into the renderer rewrite plus the bigger changes in the previous few releases make the jump to the next major version feel more than justified. Besides of that, a lot of non-renderer issues have been resolved in this release too, next to some fine usability improvements.</p> 
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=99 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2021-11-27</span>
     <span class="title">DarkRadiant 2.14.0 released</span>  
   </h2>
