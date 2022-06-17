@@ -1,2 +1,2 @@
 <h3>Linux</h3>
-<p>A <a href="https://packages.debian.org/sid/darkradiant">darkradiant package</a> is made available by the Debian Games group, these are usually available in the Ubuntu Software Center after some time. Or <a href="source.html">compile from source.</a></p>
+<p>Get a package from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a>, or use one of the <a href="https://packages.debian.org/sid/darkradiant">darkradiant packages</a> made available by the Debian Games group (these are usually available in the Ubuntu Software Center after some time). Or <a href="source.html">compile from source.</a></p>

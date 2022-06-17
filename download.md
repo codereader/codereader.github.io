@@ -64,7 +64,13 @@ title: DarkRadiant Downloads
   </div>
   <div class="col2">
     <h3>Linux</h3>
-    <p>Use the <a href="https://packages.debian.org/sid/darkradiant">debian package</a> or <a href="source.html">compile from source</a>.</p>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
   </div>
 </div>
 
