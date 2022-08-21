@@ -4,6 +4,22 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-08-21</span>
+    <span class="title">DarkRadiant 3.1.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>The Texture Tool got its Free Scale operator now, allowing you to fit the texture with the mouse instead of having to type in the percentages.</li>
+    <li>A lot of work went into the Declaration handling (EntityDef, Skins, Materials, Particles, etc.), which is now much more robust and more conformant to how the game is doing things (at least until TDM 2.10).</li>
+    <li>The Material Editor got a plethora of issues resolved</li>
+    <li>Improved the Model Export dialog and options</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=101 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-06-15</span>
     <span class="title">DarkRadiant 3.0.0 released</span>  
   </h2>

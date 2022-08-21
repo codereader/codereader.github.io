@@ -45,6 +45,42 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.1.0</span>
+    <span class="date">2022-08-21</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=101 %})</span>
+  </h2>
+  <p>What's new:
+  <ul>
+    <li>The Texture Tool got its Free Scale operator now, allowing you to fit the texture with the mouse instead of having to type in the percentages.</li>
+    <li>A lot of work went into the Declaration handling (EntityDef, Skins, Materials, Particles, etc.), which is now much more robust and more conformant to how the game is doing things (at least until TDM 2.10).</li>
+    <li>The Material Editor got a plethora of issues resolved</li>
+    <li>Improved the Model Export dialog and options</li>
+  </ul>
+  View the {% include bugtracker_changelog_link.md version=99 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.1.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.1.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.1.0/DarkRadiant.3.1.0.app.zip">DarkRadiant.3.1.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 3.0.0</span>
     <span class="date">2022-06-15</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=99 %})</span>
