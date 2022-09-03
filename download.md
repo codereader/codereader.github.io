@@ -45,6 +45,46 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.2.0</span>
+    <span class="date">2022-09-03</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=102 %})</span>
+  </h2>
+  <p>What's new:
+  <ul>
+    <li>Feature: Show entityDefs related to selected models in Model Chooser</li>
+    <li>Feature: Support for rendering blend lights</li>
+    <li>Feature: Implement sorting of Interaction Stages</li>
+    <li>Feature: Recognise type of "set x on y" spawnargs</li>
+    <li>Feature: OBJ files: loader supports usemtl keywords directly referencing material names (without .mtl file)</li>
+    <li>Fixed: Material editor: additional preview object in textures/glass/ materials</li>
+    <li>Fixed: Every attempt to load a texture will trigger a SIGSEGV signal caught: 11</li>
+    <li>Improvement: Update to wxWidgets 3.2.0</li>
+  </ul>
+  View the {% include bugtracker_changelog_link.md version=102 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.2.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.2.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.2.0/DarkRadiant.3.2.0.app.zip">DarkRadiant.3.2.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 3.1.0</span>
     <span class="date">2022-08-21</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=101 %})</span>
@@ -56,7 +96,7 @@ title: DarkRadiant Downloads
     <li>The Material Editor got a plethora of issues resolved</li>
     <li>Improved the Model Export dialog and options</li>
   </ul>
-  View the {% include bugtracker_changelog_link.md version=99 %} to see what's new in this version.</p>
+  View the {% include bugtracker_changelog_link.md version=101 %} to see what's new in this version.</p>
   <div class="col1">
     {% include download-github-win.md ver='3.1.0' x64only=true %}
   </div>

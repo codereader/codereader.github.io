@@ -4,6 +4,26 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-09-03</span>
+    <span class="title">DarkRadiant 3.2.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Show entityDefs related to selected models in Model Chooser</li>
+    <li>Feature: Support for rendering blend lights</li>
+    <li>Feature: Implement sorting of Interaction Stages</li>
+    <li>Feature: Recognise type of "set x on y" spawnargs</li>
+    <li>Feature: OBJ files: loader supports usemtl keywords directly referencing material names (without .mtl file)</li>
+    <li>Fixed: Material editor: additional preview object in textures/glass/ materials</li>
+    <li>Fixed: Every attempt to load a texture will trigger a SIGSEGV signal caught: 11</li>
+    <li>Improvement: Update to wxWidgets 3.2.0</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=102 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-08-21</span>
     <span class="title">DarkRadiant 3.1.0 released</span>  
   </h2>
