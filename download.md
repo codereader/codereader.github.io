@@ -92,7 +92,7 @@ title: DarkRadiant Downloads
     <span class="date">2022-09-03</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=102 %})</span>
   </h2>
-  <p>What's new:
+  <p>What's new:</p>
   <ul>
     <li>Feature: Show entityDefs related to selected models in Model Chooser</li>
     <li>Feature: Support for rendering blend lights</li>
@@ -103,7 +103,7 @@ title: DarkRadiant Downloads
     <li>Fixed: Every attempt to load a texture will trigger a SIGSEGV signal caught: 11</li>
     <li>Improvement: Update to wxWidgets 3.2.0</li>
   </ul>
-  View the {% include bugtracker_changelog_link.md version=102 %} to see what's new in this version.</p>
+  <p>View the {% include bugtracker_changelog_link.md version=102 %} to see what's new in this version.</p>
   <div class="col1">
     {% include download-github-win.md ver='3.2.0' x64only=true %}
   </div>
@@ -132,14 +132,14 @@ title: DarkRadiant Downloads
     <span class="date">2022-08-21</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=101 %})</span>
   </h2>
-  <p>What's new:
+  <p>What's new:</p>
   <ul>
     <li>The Texture Tool got its Free Scale operator now, allowing you to fit the texture with the mouse instead of having to type in the percentages.</li>
     <li>A lot of work went into the Declaration handling (EntityDef, Skins, Materials, Particles, etc.), which is now much more robust and more conformant to how the game is doing things (at least until TDM 2.10).</li>
     <li>The Material Editor got a plethora of issues resolved</li>
     <li>Improved the Model Export dialog and options</li>
   </ul>
-  View the {% include bugtracker_changelog_link.md version=101 %} to see what's new in this version.</p>
+  <p>View the {% include bugtracker_changelog_link.md version=101 %} to see what's new in this version.</p>
   <div class="col1">
     {% include download-github-win.md ver='3.1.0' x64only=true %}
   </div>
