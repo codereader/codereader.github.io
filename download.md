@@ -63,7 +63,7 @@ title: DarkRadiant Downloads
     <li>Fixed: xmlutil thread safety problems</li>
     <li>Fixed: Some materials aren't displayed correctly</li>
   </ul>
-  View the {% include bugtracker_changelog_link.md version=103 %} to see what's new in this version.</p>
+  <p>View the {% include bugtracker_changelog_link.md version=103 %} to see what's new in this version.</p>
   <div class="col1">
     {% include download-github-win.md ver='3.3.0' x64only=true %}
   </div>
