@@ -4,6 +4,29 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-09-23</span>
+    <span class="title">DarkRadiant 3.3.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Remove menu options which are not applicable to current game</li>
+    <li>Feature: Grey-out menu entries that are not applicable</li>
+    <li>Feature: FX Declaration Parsing Support</li>
+    <li>Feature: FX Chooser</li>
+    <li>Feature: Renderer now takes "translucent" keyword into account</li>
+    <li>Fixed: Lighting Mode Renderer draws hidden lights</li>
+    <li>Fixed: Loading map results in &quot;Real Hard DarkRadiant Failure&quot; exception</li>
+    <li>Fixed: Crash when trying to set default mouse or keyboard bindings</li>
+    <li>Fixed: Unit Tests intermittently get stuck on Github runner</li>
+    <li>Fixed: xmlutil thread safety problems</li>
+    <li>Fixed: Some materials aren't displayed correctly</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=103 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-09-03</span>
     <span class="title">DarkRadiant 3.2.0 released</span>  
   </h2>

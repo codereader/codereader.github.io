@@ -45,6 +45,49 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.3.0</span>
+    <span class="date">2022-09-23</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=103 %})</span>
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Remove menu options which are not applicable to current game</li>
+    <li>Feature: Grey-out menu entries that are not applicable</li>
+    <li>Feature: FX Declaration Parsing Support</li>
+    <li>Feature: FX Chooser</li>
+    <li>Feature: Renderer now takes "translucent" keyword into account</li>
+    <li>Fixed: Lighting Mode Renderer draws hidden lights</li>
+    <li>Fixed: Loading map results in &quot;Real Hard DarkRadiant Failure&quot; exception</li>
+    <li>Fixed: Crash when trying to set default mouse or keyboard bindings</li>
+    <li>Fixed: Unit Tests intermittently get stuck on Github runner</li>
+    <li>Fixed: xmlutil thread safety problems</li>
+    <li>Fixed: Some materials aren't displayed correctly</li>
+  </ul>
+  View the {% include bugtracker_changelog_link.md version=103 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.3.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.3.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.3.0/DarkRadiant.3.3.0.app.zip">DarkRadiant.3.3.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 3.2.0</span>
     <span class="date">2022-09-03</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=102 %})</span>
