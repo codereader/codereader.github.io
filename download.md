@@ -80,6 +80,7 @@ title: DarkRadiant Downloads
       <ul>
         <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
         <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or download the Flatpak version from <a href="https://flathub.org/apps/details/net.darkradiant.DarkRadiant">Flathub</a></li>
         <li>or <a href="source.html">Compile from source</a></li>
       </ul>
     </p>
