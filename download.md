@@ -45,6 +45,48 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.4.0</span>
+    <span class="date">2022-10-09/span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=104 %})</span>
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Allow Layers to be arranged into a Tree</li>
+    <li>Fixed: Readable Editor displays "shader not found" in view</li>
+    <li>Fixed: Undoing snap to grid with prefabs causes crash</li>
+    <li>Fixed: Include doc in building instructions</li>
+    <li>Fixed: Decal textures causes DR to crash</li>
+    <li>Fixed: Skin chooser: double click on materials list closes window</li>
+    <li>Fixed: Selecting and deselecting a filtered child brush through layers leaves the brush selected</li>
+    <li>Fixed: Material editor re-sorts stages on pasting image map resulting in wrong material stages list and wrong selected stage</li>
+    <li>Fixed: Crash on start if engine path is choosen (Doom 3)</li>
+  </ul>
+  <p>View the {% include bugtracker_changelog_link.md version=104 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.4.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.4.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.4.0/DarkRadiant.3.4.0.app.zip">DarkRadiant.3.4.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or download the Flatpak version from <a href="https://flathub.org/apps/details/net.darkradiant.DarkRadiant">Flathub</a></li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 3.3.0</span>
     <span class="date">2022-09-23</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=103 %})</span>

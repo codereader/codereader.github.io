@@ -4,6 +4,27 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-10-09</span>
+    <span class="title">DarkRadiant 3.4.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Allow Layers to be arranged into a Tree</li>
+    <li>Fixed: Readable Editor displays "shader not found" in view</li>
+    <li>Fixed: Undoing snap to grid with prefabs causes crash</li>
+    <li>Fixed: Include doc in building instructions</li>
+    <li>Fixed: Decal textures causes DR to crash</li>
+    <li>Fixed: Skin chooser: double click on materials list closes window</li>
+    <li>Fixed: Selecting and deselecting a filtered child brush through layers leaves the brush selected</li>
+    <li>Fixed: Material editor re-sorts stages on pasting image map resulting in wrong material stages list and wrong selected stage</li>
+    <li>Fixed: Crash on start if engine path is choosen (Doom 3)</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=104 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-09-23</span>
     <span class="title">DarkRadiant 3.3.0 released</span>  
   </h2>
