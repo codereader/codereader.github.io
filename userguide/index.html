@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.12">
+<meta name="generator" content="Asciidoctor 2.0.16">
 <title>DarkRadiant User Guide</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -466,6 +466,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_creating_a_simple_patch">Creating a simple patch</a></li>
 <li><a href="#_manipulating_control_points">Manipulating control points</a></li>
 <li><a href="#_adding_or_removing_control_points">Adding or removing control points</a></li>
+<li><a href="#_thickening_a_patch">Thickening a patch</a></li>
 <li><a href="#_more_complex_patch_shapes">More complex patch shapes</a></li>
 <li><a href="#_controlling_patch_subdivision">Controlling patch subdivision</a></li>
 </ul>
@@ -1668,6 +1669,64 @@ control points will become less densely packed.</p></td>
 </div>
 </div>
 <div class="sect3">
+<h4 id="_thickening_a_patch">Thickening a patch</h4>
+<div class="paragraph">
+<p>When created, every patch has zero thickness and can only be viewed from one side; however, a patch
+can be made into an apparently solid object by creating additional patches automatically via the
+<strong>Thicken</strong> command in the <strong>Patch</strong> menu.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="img/PatchThicken.png" alt="PatchThicken">
+</div>
+<div class="title">Figure 7. Thickening a patch (left) with side walls (center) and no side walls (right)</div>
+</div>
+<div class="paragraph">
+<p>The <strong>Thicken</strong> dialog presents several options:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock"><strong>Extrude along Vertex Normals</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Thicken the patch by extruding the patch surface in the direction it is facing.</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock"><strong>Extrude along X/Y/Z Axis</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Thicken the patch by extruding the surface along the specified axis, ignoring the face normal
+direction.</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock"><strong>Thickness (units)</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distance in map units to extrude the patch by.</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock"><strong>Create seams ("side walls")</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">If checked, the extruded patch will be made into a fully solid "object" with an interior volume
+completely enclosed by patches. If unchecked, only the initial patch and its extruded copy will be
+created, with the sides left open.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="img/tip.png" alt="Tip">
+</td>
+<td class="content">
+Although a thickened patch appears as a solid object, it still consists of individual patches
+which can be selected and manipulated individually. If you wish it to continue to behave as a
+solid, you can <a href="#Group">group</a> the patches together.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
 <h4 id="_more_complex_patch_shapes">More complex patch shapes</h4>
 <div class="paragraph">
 <p>Just like with brushes, DarkRadiant offers several default patch shapes beyond
@@ -1728,7 +1787,7 @@ on-screen polygon counts.</p>
 <div class="content">
 <img src="img/PatchSubdivision.png" alt="PatchSubdivision">
 </div>
-<div class="title">Figure 7. Default (automatic) subdivision, 2x2 subdivision, 3x3 subdivision, 3x10 subdivision</div>
+<div class="title">Figure 8. Default (automatic) subdivision, 2x2 subdivision, 3x3 subdivision, 3x10 subdivision</div>
 </div>
 <div class="paragraph">
 <p>To subdivide a patch:</p>
@@ -2128,7 +2187,7 @@ also show the boundaries of the light volume.</p>
 <div class="content">
 <img src="img/LightSelectedAndUnselected.png" alt="LightSelectedAndUnselected">
 </div>
-<div class="title">Figure 8. Light entity selected (left) and unselected (right)</div>
+<div class="title">Figure 9. Light entity selected (left) and unselected (right)</div>
 </div>
 <div class="paragraph">
 <p>A selected light entity can be moved by dragging inside the small center box,
@@ -2661,7 +2720,7 @@ line in both the 2D and 3D views:</p>
 <div class="content">
 <img src="img/Pointfile.png" alt="Pointfile">
 </div>
-<div class="title">Figure 9. A pointfile rendered in both 3D and 3D views</div>
+<div class="title">Figure 10. A pointfile rendered in both 3D and 3D views</div>
 </div>
 <div class="paragraph">
 <p>In this example we can clearly see that the map has leaked because the far wall
@@ -2942,7 +3001,7 @@ that contains the selected object.</p>
 <div class="content">
 <img src="img/LightInTwoLayers.png" alt="LightInTwoLayers">
 </div>
-<div class="title">Figure 10. A light in two layers: "Default" and "Lights"</div>
+<div class="title">Figure 11. A light in two layers: "Default" and "Lights"</div>
 </div>
 <div class="paragraph">
 <p>All newly-created objects will be placed in the <strong>Default</strong> layer. You can move or
@@ -3092,7 +3151,7 @@ button to open the filter editor in a read-only mode.</p>
 <div class="content">
 <img src="img/FilterEditor.png" alt="FilterEditor">
 </div>
-<div class="title">Figure 11. The filter editor dialog</div>
+<div class="title">Figure 12. The filter editor dialog</div>
 </div>
 <div class="paragraph">
 <p>Each filter consists of a number of <strong>rules</strong>, which are applied in the order
@@ -3160,7 +3219,7 @@ their child brushes and patches (if any).</p>
 <div class="content">
 <img src="img/EntityList.png" alt="EntityList">
 </div>
-<div class="title">Figure 12. The entity list, showing a number of entities in a small test map</div>
+<div class="title">Figure 13. The entity list, showing a number of entities in a small test map</div>
 </div>
 <div class="paragraph">
 <p>The tree structure shown in the entity list corresponds to the structure of the
@@ -3227,7 +3286,7 @@ removing a particular enemy type&#8217;s ability to relight torches.</p>
 <div class="content">
 <img src="img/DifficultyEditor.png" alt="DifficultyEditor">
 </div>
-<div class="title">Figure 13. The Difficulty editor, showing a modified property on a particular entity class</div>
+<div class="title">Figure 14. The Difficulty editor, showing a modified property on a particular entity class</div>
 </div>
 <div class="paragraph">
 <p>The Difficulty editor shows the names of the available difficulty levels in a
@@ -4173,7 +4232,7 @@ these into one or more MTR files which are listed as hidden.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-08-21 10:53:45 +0200
+Last updated 2022-10-11 17:13:20 +0200
 </div>
 </div>
 </body>
