@@ -4,6 +4,27 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-10-28</span>
+    <span class="title">DarkRadiant 3.5.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: More customisable layout, all windows and panes can be dragged and arranged</li>
+    <li>Layouts like Embedded, Regular and Splitpane are superseded and have been removed</li>
+    <li>Tweak: The LayerControlPanel's tooltip popup is now less annoying</li>
+    <li>Tweak: Clarify distinction between Shadow render mode and other render modes</li>
+    <li>Fixed: Show/hide Light Volumes for combined entities inconsistent</li>
+    <li>Fixed: Currently applied particleDef not selected in Particle Selector</li>
+    <li>Fixed: Layer visibility checkbox not reacting to double-clicks</li>
+    <li>Fixed: Cannot toggle visibility of layers in Linux</li>
+    <li>Fixed: Drag-and-dropping layers is not working in Linux</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=105 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-10-09</span>
     <span class="title">DarkRadiant 3.4.0 released</span>  
   </h2>
