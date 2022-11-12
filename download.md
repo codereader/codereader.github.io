@@ -46,7 +46,7 @@ title: DarkRadiant Downloads
 <div class="section download latest">
   <h2>
     <span class="">DarkRadiant 3.6.0</span>
-    <span class="date">2022-11-12/span>
+    <span class="date">2022-11-12</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=106 %})</span>
   </h2>
   <p>What's new:</p>
@@ -99,7 +99,7 @@ title: DarkRadiant Downloads
 <div class="section download">
   <h2>
     <span class="">DarkRadiant 3.5.0</span>
-    <span class="date">2022-10-28/span>
+    <span class="date">2022-10-28</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=105 %})</span>
   </h2>
   <p>What's new:</p>
@@ -141,7 +141,7 @@ title: DarkRadiant Downloads
 <div class="section download">
   <h2>
     <span class="">DarkRadiant 3.4.0</span>
-    <span class="date">2022-10-09/span>
+    <span class="date">2022-10-09</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=104 %})</span>
   </h2>
   <p>What's new:</p>
