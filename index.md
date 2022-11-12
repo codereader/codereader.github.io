@@ -4,6 +4,38 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-11-12</span>
+    <span class="title">DarkRadiant 3.6.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Selection Focus</li>
+    <li>Feature: Add Radiant.findEntityByName script method</li>
+    <li>Feature: Media Browser shows a thumbnail preview when selecting folders</li>
+    <li>Feature: Map is remembering layer visibilities between loads</li>
+    <li>Fixed: ModelDefs are shown in T-pose</li>
+    <li>Fixed: Patch vertices are the wrong colour</li>
+    <li>Fixed: Shader Clipboard source gets cleared on 'copy shader' operation</li>
+    <li>Fixed: Nodes of hidden layers are still visible after loading the map</li>
+    <li>Fixed: Can't close properties window</li>
+    <li>Fixed: Merge Action rendering is broken</li>
+    <li>Fixed: After using ToggleMainControl_Camera, the center panel is grey after restart</li>
+    <li>Fixed: When using ToggleMainControl_Camera, arrow keys cannot be used to move the viewer</li>
+    <li>Fixed: Property Panel not remembering undocked/closed tabs</li>
+    <li>Fixed: Texture Tool not updating during manipulation</li>
+    <li>Fixed: Orthoview ignores filters for surfaces in models</li>
+    <li>Fixed: Blue dot when selecting one face removed</li>
+    <li>Tweak: Conversation Editor: double-click opens selected conversation</li>
+    <li>Tweak: Preference option to disable drag select in camera view</li>
+    <li>Tweak: ESC key should clear the resource tree view filter text</li>
+    <li>Tweak: New layers function: tooltip popup getting in the way</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=106 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-10-28</span>
     <span class="title">DarkRadiant 3.5.0 released</span>  
   </h2>

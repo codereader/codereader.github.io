@@ -45,6 +45,59 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.6.0</span>
+    <span class="date">2022-11-12/span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=106 %})</span>
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Selection Focus</li>
+    <li>Feature: Add Radiant.findEntityByName script method</li>
+    <li>Feature: Media Browser shows a thumbnail preview when selecting folders</li>
+    <li>Feature: Map is remembering layer visibilities between loads</li>
+    <li>Fixed: ModelDefs are shown in T-pose</li>
+    <li>Fixed: Patch vertices are the wrong colour</li>
+    <li>Fixed: Shader Clipboard source gets cleared on 'copy shader' operation</li>
+    <li>Fixed: Nodes of hidden layers are still visible after loading the map</li>
+    <li>Fixed: Can't close properties window</li>
+    <li>Fixed: Merge Action rendering is broken</li>
+    <li>Fixed: After using ToggleMainControl_Camera, the center panel is grey after restart</li>
+    <li>Fixed: When using ToggleMainControl_Camera, arrow keys cannot be used to move the viewer</li>
+    <li>Fixed: Property Panel not remembering undocked/closed tabs</li>
+    <li>Fixed: Texture Tool not updating during manipulation</li>
+    <li>Fixed: Orthoview ignores filters for surfaces in models</li>
+    <li>Fixed: Blue dot when selecting one face removed</li>
+    <li>Tweak: Conversation Editor: double-click opens selected conversation</li>
+    <li>Tweak: Preference option to disable drag select in camera view</li>
+    <li>Tweak: ESC key should clear the resource tree view filter text</li>
+    <li>Tweak: New layers function: tooltip popup getting in the way</li>
+  </ul>
+  <p>View the {% include bugtracker_changelog_link.md version=106 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.6.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.6.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.5.0/DarkRadiant.3.6.0.app.zip">DarkRadiant.3.6.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or download the Flatpak version from <a href="https://flathub.org/apps/details/net.darkradiant.DarkRadiant">Flathub</a></li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 3.5.0</span>
     <span class="date">2022-10-28/span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=105 %})</span>
