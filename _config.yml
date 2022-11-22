@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
   DarkRadiant, an open-source level editor for Doom3 and The Dark Mod.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.darkradiant.net"
-github_username:  codereader
-dr_latest_ver: 3.6.0
+github_username: codereader
+dr_latest_ver: 3.7.0
 
 # Build settings
 markdown: kramdown

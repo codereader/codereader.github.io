@@ -4,6 +4,30 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2022-11-22</span>
+    <span class="title">DarkRadiant 3.7.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Skin Editor</li>
+    <li>Improvement: Script Window usability improvements</li>
+    <li>Fixed: Hitting escape while autosaving crashes to desktop</li>
+    <li>Fixed: Def parsing problem in tdm_playertools_lockpicks.def</li>
+    <li>Fixed: DR hangs if selecting a lot of entities with entity list open</li>
+    <li>Fixed: Float Property Editor's entry box is sticking around after selecting a float key</li>
+    <li>Fixed: Spline entities without model spawnarg are unselectable</li>
+    <li>Fixed: Entity window resets interior sizing forcing resize each time it is opened</li>
+    <li>Fixed: Spline curves should not be created with a model spawnarg</li>
+    <li>Fixed: Newly appended curve control vertices aren't shown at first</li>
+    <li>Fixed: Light entities are zoomed out in preview window</li>
+    <li>Fixed: Entity inspector spawnarg fields not always updated by UI windows such as Model Chooser</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=107 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2022-11-12</span>
     <span class="title">DarkRadiant 3.6.0 released</span>  
   </h2>
