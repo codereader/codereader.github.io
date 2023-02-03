@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.darkradiant.net"
 github_username: codereader
-dr_latest_ver: 3.7.0
+dr_latest_ver: 3.8.0
 
 # Build settings
 markdown: kramdown

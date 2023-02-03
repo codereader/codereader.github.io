@@ -45,6 +45,58 @@ title: DarkRadiant Downloads
 
 <div class="section download latest">
   <h2>
+    <span class="">DarkRadiant 3.8.0</span>
+    <span class="date">2023-02-03</span>
+    <span class="changelog">({% include bugtracker_changelog_link.md version=109 %})</span>
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Support new frob-related material keywords</li>
+    <li>Improvement: Mission selection list in Game setup is not alphabetically sorted</li>
+    <li>Improvement: Better distinction between inherited and regular spawnargs</li>
+    <li>Improvement: Silence sound shader button</li>
+    <li>Improvement: Add Reload Definitions button to Model Chooser</li>
+    <li>Fixed: Model Selector widgets are cut off and flicker constantly on Linux</li>
+    <li>Fixed: DarkRadiant will not start without Dark Mod plugins</li>
+    <li>Fixed: GenericEntityNode not calculating the direction correctly with "editor_rotatable"</li>
+    <li>Fixed: RenderableArrow not drawing the tip correctly for arbitrary rotations</li>
+    <li>Fixed: Light Inspector crashes on Linux</li>
+    <li>Fixed: Models glitch out when filtering then showing them</li>
+    <li>Fixed: Skin Editor: models not centered well in preview</li>
+    <li>Fixed: "Copy Resource Path" includes top level folders</li>
+    <li>Fixed: Skin Editor: internal test skins are shown if Material Editor was open previously</li>
+    <li>Fixed: Changing Game/Project doesn't update loaded assets correctly</li>
+    <li>Fixed: Model Chooser: initially hidden materials aren't revealed when enabling them</li>
+    <li>Fixed: Choosing AI entity class 'atdm:townsfolk_commoner_update' causes crash</li>
+    <li>Fixed: Sporadic assertion failure on shutdown due to LocalBitmapArtProvider destruction</li>
+    <li>Fixed: Prefab Selector spams infinite error dialogs on Linux</li>
+  </ul>
+  <p>View the {% include bugtracker_changelog_link.md version=109 %} to see what's new in this version.</p>
+  <div class="col1">
+    {% include download-github-win.md ver='3.8.0' x64only=true %}
+  </div>
+  <div class="col2">
+    {% include download-github-win-portable.md ver='3.8.0' x64only=true %}
+  </div>
+  <div class="col1">
+    <h3>macOS</h3>
+    <p><ul><li><a href="https://github.com/codereader/DarkRadiant/releases/download/3.8.0/DarkRadiant.3.8.0.app.zip">DarkRadiant.3.8.0.app.zip</a></li></ul></p>
+  </div>
+  <div class="col2">
+    <h3>Linux</h3>
+    <p>
+      <ul>
+        <li>Get it from <a href="https://launchpad.net/~orbweaver/+archive/ubuntu/darkradiant">OrbWeaver's PPA</a></li>
+        <li>or search the <a href="https://packages.debian.org/sid/darkradiant">Debian Packages</a> (maintained by the Debian Games Group)</li>
+        <li>or download the Flatpak version from <a href="https://flathub.org/apps/details/net.darkradiant.DarkRadiant">Flathub</a></li>
+        <li>or <a href="source.html">Compile from source</a></li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="section download">
+  <h2>
     <span class="">DarkRadiant 3.7.0</span>
     <span class="date">2022-11-22</span>
     <span class="changelog">({% include bugtracker_changelog_link.md version=107 %})</span>
