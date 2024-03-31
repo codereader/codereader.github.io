@@ -4,6 +4,37 @@ title: DarkRadiant, open-source level editor for Doom 3 and The Dark Mod
 ---
 <div class="section">
   <h2>
+    <span class="date">2024-03-31</span>
+    <span class="title">DarkRadiant 3.9.0 released</span>  
+  </h2>
+  <p>What's new:</p>
+  <ul>
+    <li>Feature: Add "Show definition" button for the "inherit" spawnarg</li>
+    <li>Improvement: Preserve patch tesselation fixed subdivisions when creating caps</li>
+    <li>Improvement: Add Filters for Location Entities and Player Start</li>
+    <li>Improvement: Support saving entity key/value pairs containing double quotes</li>
+    <li>Improvement: Allow a way to easily see all properties of attached entities</li>
+    <li>Fixed: "Show definition" doesn't work for inherited properties</li>
+    <li>Fixed: Incorrect mouse movement in 3D / 2D views on Plasma Wayland</li>
+    <li>Fixed: Objective Description flumoxed by double-quotes</li>
+    <li>Fixed: Spinboxes in Background Image panel don't work correctly</li>
+    <li>Fixed: Skins defined on modelDefs are ignored</li>
+    <li>Fixed: Crash on activating lighting mode in the Model Chooser</li>
+    <li>Fixed: Can't undo deletion of atdm_conversation_info entity via conversation editor</li>
+    <li>Fixed: 2D views revert to original ortho layout each time running DR.</li>
+    <li>Fixed: WX assertion failure when docking windows on top of the Properties panel on Linux</li>
+    <li>Fixed: Empty rotation when cloning an entity using editor_rotatable and an angle key</li>
+    <li>Fixed: Three-way merge produces duplicate primitives when a func_static is moved</li>
+    <li>Fixed: Renderer crash during three-way map merge</li>
+    <li>Internal: Replace libxml2 with pugixml</li>
+    <li>Internal: Update wxWidgets to 3.2.4</li>
+  </ul>
+  <p>It's recommended to prefer this version over any previous release. View the full list of changes on our {% include bugtracker_changelog_link.md version=110 %}.</p>
+  <p>Get DarkRadiant by using the shortcuts on this page or the ones in the <a href="download.html">Download</a> section.</p>
+</div>
+
+<div class="section">
+  <h2>
     <span class="date">2023-02-03</span>
     <span class="title">DarkRadiant 3.8.0 released</span>  
   </h2>
